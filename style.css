@@ -29,4 +29,18 @@
 
 
 
+/* Font Weight*/
+--font-weight-normal: 400;
+--font-weight-medium: 500;
+--font-weightsemibold: 600;
+--font-weight: 700;
+
+
+/* border-radius*/
+border-radius-s: 8px;
+border-radius-m: 30px;
+border-radius-circle: 50px;
+
+/* Site max width */
+--site-max-width: 1300px;
 }
