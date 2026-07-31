@@ -62,8 +62,13 @@ button{
 img{
     width: 100;
 }
-/* Navbar styling */
+.section-content{
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: var(--site-max-width);
+}
 
+/* Navbar styling */
 
 header{
 background: var(--primary-color);
@@ -79,6 +84,8 @@ header .navbar {
 .navbar .nav-logo .logo-text{
     color: var(--white-color);
     font-size: var(--font-size-x1);
+    font-weight: var(--font-weight-semibold);
+
 }
 
 .navbar .nav-manu{
