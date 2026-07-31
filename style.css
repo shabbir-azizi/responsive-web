@@ -195,3 +195,11 @@ img {
         align-items: center;
         padding-top: 100px;
         background: var(--white-color);
+    }
+    .navbar .nav-menu .nav-link {
+        color: var(--primary-color);
+        display: block;
+        margin: 17px;
+        font-size: var(--font-size-l);
+    }
+}
