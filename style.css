@@ -1,12 +1,6 @@
 /* Import Google Font */
 
 
-    .navbar .nav-menu .nav-link {
-        color: var(--primary-color);
-        display: block;
-        margin: 17px;
-        font-size: var(--font-size-l);
-    }
 
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
@@ -233,7 +227,13 @@ img {
     body.show-mobile-menu .navbar .nav-menu {
         left: 0;
     }
-
+  .navbar .nav-menu .nav-link {
+        color: var(--primary-color);
+        display: block;
+        margin: 17px;
+        font-size: var(--font-size-l);
+    }
+}
 
     .navbar .nav-menu .nav-link {
         color: var(--primary-color);
