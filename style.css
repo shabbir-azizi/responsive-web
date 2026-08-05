@@ -192,6 +192,16 @@ img {
         --font-size-xl: 1.5rem;
         --font-size-xxl: 1.8rem;
     }
+    body.show-mobile-menu header::before {
+        content: "";
+        position: ;fixed;
+        left: 0;
+        top: 0;
+        height: 100%;
+        weidth: 100%;
+        backdrop-filter: blur(5px);
+        background: rgba(0, 0, 0, 0.2);
+    }
 
     .navbar :where(#menu_close-button,#menu_open-button){
         display: block;
@@ -227,13 +237,7 @@ img {
     body.show-mobile-menu .navbar .nav-menu {
         left: 0;
     }
-  .navbar .nav-menu .nav-link {
-        color: var(--primary-color);
-        display: block;
-        margin: 17px;
-        font-size: var(--font-size-l);
-    }
-}
+
 
     .navbar .nav-menu .nav-link {
         color: var(--primary-color);
@@ -241,4 +245,5 @@ img {
         margin: 17px;
         font-size: var(--font-size-l);
     }
+    
 }
