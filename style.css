@@ -194,11 +194,11 @@ img {
     }
     body.show-mobile-menu header::before {
         content: "";
-        position: ;fixed;
+        position: fixed;
         left: 0;
         top: 0;
         height: 100%;
-        weidth: 100%;
+        width: 100%;
         backdrop-filter: blur(5px);
         background: rgba(0, 0, 0, 0.2);
     }
@@ -245,5 +245,17 @@ img {
         margin: 17px;
         font-size: var(--font-size-l);
     }
-    
+
+    .hero-section .section-content {
+        gap: 50px;
+        text-align: center;
+        padding: 30px 20px 20px;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .hero-section .hero-image-wrapper {
+        margin-left: 0;
+        max-width: 37px;
+    }
+
 }
