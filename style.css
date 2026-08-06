@@ -121,15 +121,15 @@ img {
 /* Hero Section */
 
 .hero-section {
-    min-height: 100vh;
-    background: var(--primary-color);
+    min-height: 10vh;
+    /* background: var(--primary-color); */
 }
 
 .hero-section .section-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-height: 100vh;
+    min-height: 50vh;
     color: var(--white-color);
 }
 
@@ -253,9 +253,19 @@ img {
         flex-direction: column-reverse;
         justify-content: center;
     }
+
+    .hero-section .hero-details :is(.subtitle,
+    description){
+        max-width: 100%;
+    }
+
+    .hero-section .hero-details .buttons {
+        justify-content: center;
+    } 
+
     .hero-section .hero-image-wrapper {
         margin-left: 0;
         max-width: 37px;
-    }
+    } 
 
 }
